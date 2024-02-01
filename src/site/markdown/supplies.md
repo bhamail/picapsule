@@ -22,4 +22,20 @@ can be done via `ssh`.
 
      ![Pi2](images/supplies/SDCard-20-231-577-Z01.jpg)
 
+  5. A big 'ole USB hard drive. This could be a spinning disk, and an SSD. I decided the extra cost of an SSD would be 
+     worthwhile because the SDD will be faster and use less electricity over its lifetime. The really important word
+     here is "big". Time Machine will backup your entire Mac, so the backup disk you use should have at least twice the
+     storage space of you Mac. 
+ 
+     I went with a [4tb ssd (Crucial P3 Plus 4TB PCIe Gen4 3D NAND NVMe M.2 SSD, up to 5000MB/s - CT4000P3PSSD8)](https://www.amazon.com/dp/B0B25M8FXX?ref=ppx_yo2ov_dt_b_product_details&th=1)
+     
+     ![SSD](images/supplies/SSD-NVMe-M.2.png)
+     
+     and this [USB M.2 NVME SATA SSD Enclosure Adapter (SSK Aluminum M.2 NVME SATA SSD Enclosure Adapter, USB 3.2 Gen 2 (10 Gbps) to NVME PCI-E SATA M-Key/(B+M) Key Solid State Drive External Enclosure Support UASP Trim for NVME/SATA SSDs 2242/2260/2280)](https://www.amazon.com/dp/B07MNFH1PX?psc=1&ref=ppx_yo2ov_dt_b_product_details).
+
+     ![SSD Enclosure](images/supplies/Enclosure-M.2-NMVE-SSD.png)
+
+     For those who want the fastest possible solution, the Pi 5 has a PCI Express interface available via a ribbon cable
+     and adapter. As I said, I'm desirous of a Pi 5, but couldn't find one as of this writing.
+
 Next step: [Setup](setup.html)
