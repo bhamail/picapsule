@@ -8,7 +8,7 @@
 
   <name>PiCapsule</name>
   <description>Build your own Time Capsule backup server using a Raspberry Pi</description>
-  <url>https://bhamail.github.io/pinexus/</url>
+  <url>https://bhamail.github.io/picapsule/</url>
   <inceptionYear>2024</inceptionYear>
   <licenses>
     <license>

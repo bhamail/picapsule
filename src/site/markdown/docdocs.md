@@ -8,7 +8,7 @@ Here is some documentation about how this documentation is written. Feel free to
 
   1. Markdown - Much of this site is written in the [Markdown format](https://daringfireball.net/projects/markdown/syntax).
 
-    Markdown source files are located in: [src/site/markdown](https://github.com/bhamail/pinexus/tree/master/src/site/markdown).
+     Markdown source files are located in: [src/site/markdown](https://github.com/bhamail/picapsule/tree/master/src/site/markdown).
     
   2. You may also find some `README.md` files scattered around the source tree as well.
 
@@ -40,6 +40,7 @@ To deploy these docs to GH Pages, we use [maven-scm-publish-plugin](https://mave
         
  2. Deploy site to github gh-pages.
   
-        $ git checkout master
-        $ mvn clean site-deploy
+        git checkout master
+        git pull
+        mvn clean site-deploy
 

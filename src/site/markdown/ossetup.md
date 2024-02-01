@@ -18,4 +18,4 @@ OS Setup
      See: [Change Hostname](https://www.tomshardware.com/how-to/raspberry-pi-change-hostname) for more details.
   6. Reboot and reconnect via `ssh`.
 
-Next step: [Time Capsule Setup](nexussetup.html)
+Next step: [Time Capsule Setup](timecapsulesetup.html)
