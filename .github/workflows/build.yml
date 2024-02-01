@@ -15,4 +15,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Build Site
-        run: mvn clean package site -Plinkcheck
+        run: ./mvnw clean package site -Plinkcheck
