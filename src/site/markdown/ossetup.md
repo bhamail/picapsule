@@ -1,7 +1,7 @@
 OS Setup
 ========
   
-  Once you have an SD Card with the [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) OS Image, you can setup the operating system as follows:
+  Once you have an SD Card with the [Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspbian/), you can setup the operating system as follows:
   
   1. Insert the card into your Raspberry Pi. Connect the USB Power cable.
   2. Enable `ssh` when the OS boots. You'll likely see the Pi reboot itself after the first startup.
@@ -10,4 +10,12 @@ OS Setup
      ```shell
      pi@raspberrypi:~ $ sudo apt-get update && sudo apt-get upgrade
      ```    
+  5. Change the hostname of your raspberrypi. I'm using `raspberrypi-time`. 
+     You can do this using `raspi-config` from your `ssh` console. 
+     ```shell
+     $ sudo raspi-config
+     ```
+     See: [Change Hostname](https://www.tomshardware.com/how-to/raspberry-pi-change-hostname) for more details.
+  6. Reboot and reconnect via `ssh`.
+
 Next step: [Time Capsule Setup](nexussetup.html)
