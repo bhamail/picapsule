@@ -48,8 +48,11 @@
   </distributionManagement>
 
   <properties>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
+    <!-- maven-linkcheck-plugin requires java8 to work on MacOS -->
+    <!--<version-java>8</version-java>-->
+    <version-java>17</version-java>
+    <maven.compiler.source>${version-java}</maven.compiler.source>
+    <maven.compiler.target>${version-java}</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <version-maven-linkcheck-plugin>1.2</version-maven-linkcheck-plugin>
