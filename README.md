@@ -10,7 +10,7 @@ Build your own [Time Capsule](https://www.apple.com/ph/airport-time-capsule/spec
 
 #### Other fun Pi Projects
 
-[Pi Nexus](https://github.com/bhamail/pinexus) - Tools to play with [Sonatype Nexus Repository 3](https://help.sonatype.com/en/sonatype-nexus-repository.html) on a Raspberry Pi.
+[PiNexus](https://github.com/bhamail/pinexus) - Tools to play with [Sonatype Nexus Repository 3](https://help.sonatype.com/en/sonatype-nexus-repository.html) on a Raspberry Pi.
 
 ### ToDo
 
@@ -22,11 +22,11 @@ Do the following to redeploy the website:
 1. Pull the latest from the `main` branch.
 2. Setup local JDK 8 (required for maven-linkcheck-plugin). I use [sdkman](https://sdkman.io): 
 ```shell
-$ sdk use java 8.0.372-zulu
+sdk use java 8.0.372-zulu
 ```
 3. Run:
 ```shell
-$ ./mvnw clean site-deploy -Plinkcheck 
+./mvnw clean site-deploy -Plinkcheck 
 ```
 Note: You will likely be prompted for the ssh key password for your git login. You do have 
 a password on your git ssh key correct? ;)
