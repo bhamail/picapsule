@@ -5,7 +5,7 @@ PiCapsule
 
 Build your own Time Capsule backup server using a [Raspberry Pi](https://www.raspberrypi.org).
 
-Website:
+GH Pages Web site:
 https://bhamail.github.io/picapsule/
 
 ### Release Process
@@ -17,5 +17,5 @@ Do the following to redeploy the web site:
 ```shell
 $ ./mvnw clean package site -Plinkcheck site-deploy
 ```
-Note: You will likely be prompted for the ssh key for your git login. You do have 
+Note: You will likely be prompted for the ssh key password for your git login. You do have 
 a password on your git ssh key correct? ;)
