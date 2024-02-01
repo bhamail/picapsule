@@ -10,11 +10,21 @@ Here is some documentation about how this documentation is written. Feel free to
 
      Markdown source files are located in: [src/site/markdown](https://github.com/bhamail/picapsule/tree/master/src/site/markdown).
     
-  2. You may also find some `README.md` files scattered around the source tree as well.
+  2. Run the following command to build a local copy of the web site:
+
+     ```shell
+     ./mvnw clean site
+     ```
+
+     You can view the local site by opening: `./target/site/index.html`
+
+     Contributions are welcomed!!!
 
 
 Doc Publishing
 --------------
+
+These notes are just for me to remember what I did:
 
 To deploy these docs to GH Pages, we use [maven-scm-publish-plugin](https://maven.apache.org/plugins/maven-scm-publish-plugin/).
 
