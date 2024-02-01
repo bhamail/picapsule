@@ -30,10 +30,32 @@
     </developer>
   </developers>
 
+  <scm>
+    <url>https://github.com/bhamail/picapsule</url>
+    <connection>scm:git:git://github.com/bhamail/picapsule.git</connection>
+    <developerConnection>scm:git:git@github.com/bhamail/picapsule.git</developerConnection>
+  </scm>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/bhamail/picapsule/issues</url>
+  </issueManagement>
+  <ciManagement>
+    <system>Travis CI</system>
+    <url>https://travis-ci.org/bhamail/picapsule</url>
+  </ciManagement>
+  <distributionManagement>
+    <site>
+      <id>gh-pages.git.server</id>
+      <url>scm:git:git@github.com:bhamail/picapsule.git</url>
+    </site>
+  </distributionManagement>
+
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    <version-maven-linkcheck-plugin>1.2</version-maven-linkcheck-plugin>
   </properties>
 
 </project>
