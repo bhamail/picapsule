@@ -18,7 +18,7 @@
         <item name="Setup" href="setup.html" collapse="true">
           <item name="SD Card Setup" href="sdcardsetup.html"/>
           <item name="OS Setup" href="ossetup.html"/>
-          <item name="Nexus Setup" href="nexussetup.html"/>
+          <item name="Time Capsule Setup" href="timecapsulesetup.html"/>
           <item name="Repo Test" href="repotest.html"/>
         </item>
         <item name="Doc docs" href="docdocs.html"/>
