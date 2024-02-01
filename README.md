@@ -12,7 +12,10 @@ https://bhamail.github.io/picapsule/
 
 Do the following to redeploy the web site:
 1. Pull latest from `main` branch.
-2. Setup local JDK 8 (required for maven-linkcheck-plugin)
+2. Setup local JDK 8 (required for maven-linkcheck-plugin). I use [sdkman](https://sdkman.io): 
+```shell
+sdk use java 8.0.372-zulu
+```
 3. Run:
 ```shell
 $ ./mvnw clean package site -Plinkcheck site-deploy
