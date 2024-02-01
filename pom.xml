@@ -50,7 +50,7 @@
   <properties>
     <!-- maven-linkcheck-plugin requires java8 to work on MacOS -->
     <!--<version-java>8</version-java>-->
-    <version-java>17</version-java>
+    <version-java>8</version-java>
     <maven.compiler.source>${version-java}</maven.compiler.source>
     <maven.compiler.target>${version-java}</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -92,6 +92,49 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-linkcheck-plugin</artifactId>
         <version>${version-maven-linkcheck-plugin}</version>
+      </plugin>
+
+      <plugin><!-- used to deploy site to gh-pages. -->
+        <artifactId>maven-scm-publish-plugin</artifactId>
+        <version>3.0.0</version>
+        <configuration>
+          <!-- This is important for git. -->
+          <scmBranch>gh-pages</scmBranch>
+        </configuration>
+        <executions>
+          <execution>
+            <id>scm-publish</id>
+            <phase>site-deploy</phase>
+            <goals>
+              <goal>publish-scm</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-site-plugin</artifactId>
+        <!-- maven-site-plugin is still borked, unless new doxia dependency is explicitly defined. -->
+        <version>3.12.1</version>
+        <configuration>
+          <!-- we use maven-scm-publish-plugin to deploy, so skip this. -->
+          <skipDeploy>true</skipDeploy>
+        </configuration>
+        <executions>
+          <execution>
+            <id>attach-descriptor</id>
+            <goals>
+              <goal>attach-descriptor</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>stage-for-scm-publish</id>
+            <phase>post-site</phase>
+            <goals>
+              <goal>stage</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
 
     </plugins>

@@ -6,4 +6,4 @@ Build your own Time Capsule backup server using a [Raspberry Pi](https://www.ras
 Website:
 https://bhamail.github.io/picapsule/
 
-[![Build Status](https://travis-ci.org/bhamail/pinexus.svg?branch=master)](https://travis-ci.org/bhamail/pinexus)
+[![Build Status](https://github.com/bhamail/picapsule/actions)](ttps://github.com/bhamail/picapsule/actions/workflows/build.yml/badge.svg)
