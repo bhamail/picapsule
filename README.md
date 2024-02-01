@@ -12,6 +12,10 @@ Build your own [Time Capsule](https://www.apple.com/ph/airport-time-capsule/spec
 
 [Pi Nexus](https://github.com/bhamail/pinexus) - Tools to play with [Sonatype Nexus Repository 3](https://help.sonatype.com/en/sonatype-nexus-repository.html) on a Raspberry Pi.
 
+### ToDo
+
+1. Fix the [maven-linkcheck-plugin](https://maven.apache.org/plugins/maven-linkcheck-plugin/) to work with java 9+.
+
 ### Release Process
 
 Do the following to redeploy the website:
