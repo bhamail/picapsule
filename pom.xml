@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.rollocos.pi.capsule</groupId>
@@ -10,7 +8,6 @@
 
   <name>PiCapsule</name>
   <description>Build your own Time Capsule backup server using a Raspberry Pi</description>
-
   <url>https://bhamail.github.io/pinexus/</url>
   <inceptionYear>2024</inceptionYear>
   <licenses>
@@ -58,4 +55,68 @@
     <version-maven-linkcheck-plugin>1.2</version-maven-linkcheck-plugin>
   </properties>
 
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-linkcheck-plugin</artifactId>
+          <version>${version-maven-linkcheck-plugin}</version>
+        </plugin>
+
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>tidy-maven-plugin</artifactId>
+          <version>1.2.0</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>tidy-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>validate</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-linkcheck-plugin</artifactId>
+        <version>${version-maven-linkcheck-plugin}</version>
+      </plugin>
+
+    </plugins>
+  </build>
+
+  <profiles>
+
+    <profile>
+      <id>linkcheck</id>
+      <activation>
+        <property>
+          <name>linkcheck.exec</name>
+        </property>
+      </activation>
+      <reporting>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-linkcheck-plugin</artifactId>
+            <version>${version-maven-linkcheck-plugin}</version>
+            <configuration>
+<!--              <baseURL>target/site</baseURL>-->
+              <timeout>5000</timeout>
+            </configuration>
+          </plugin>
+        </plugins>
+      </reporting>
+    </profile>
+
+  </profiles>
 </project>
