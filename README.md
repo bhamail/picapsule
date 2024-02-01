@@ -3,7 +3,7 @@ PiCapsule
 
 [![Build Status](https://github.com/bhamail/picapsule/actions/workflows/build.yml/badge.svg)](https://github.com/bhamail/picapsule/actions)
 
-Build your own Time Capsule backup server using a [Raspberry Pi](https://www.raspberrypi.org).
+Build your own [Time Capsule](https://www.apple.com/ph/airport-time-capsule/specs/) backup server using a [Raspberry Pi](https://www.raspberrypi.org).
 
 [GH Pages Website](https://bhamail.github.io/picapsule/) <--
  This is likely what you really want: The steps to build your own Time Capsule.
