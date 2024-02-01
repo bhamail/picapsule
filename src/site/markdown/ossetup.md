@@ -10,12 +10,12 @@ OS Setup
      ```shell
      pi@raspberrypi:~ $ sudo apt-get update && sudo apt-get upgrade
      ```    
-  5. Change the hostname of your raspberrypi. I'm using `raspberrypi-time`. 
+  5. Change the hostname of your Raspberry Pi. I'm using `raspberrypi-time`. 
      You can do this using `raspi-config` from your `ssh` console. 
      ```shell
      $ sudo raspi-config
      ```
      See: [Change Hostname](https://www.tomshardware.com/how-to/raspberry-pi-change-hostname) for more details.
-  6. Reboot and reconnect via `ssh`.
+  6. Reboot your Raspberry Pi and reconnect to it via `ssh`.
 
 Next step: [Time Capsule Setup](timecapsulesetup.html)
