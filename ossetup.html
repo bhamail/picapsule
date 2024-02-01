@@ -45,7 +45,7 @@
     <li><a href="sdcardsetup.html" title="SD Card Setup"><span class="none"></span>SD Card Setup</a>  </li>
     <li class="active"><a href="#"><span class="none"></span>OS Setup</a>
   </li>
-    <li><a href="nexussetup.html" title="Nexus Setup"><span class="none"></span>Nexus Setup</a>  </li>
+    <li><a href="timecapsulesetup.html" title="Time Capsule Setup"><span class="none"></span>Time Capsule Setup</a>  </li>
     <li><a href="repotest.html" title="Repo Test"><span class="none"></span>Repo Test</a>  </li>
       </ul>
   </li>
@@ -68,7 +68,7 @@
         </div>
         <div id="bodyColumn"  class="span10" >
 <h1>OS Setup</h1>
-<p>Once you have an SD Card with the <a class="externalLink" href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian</a> OS Image, you can setup the operating system as follows:</p>
+<p>Once you have an SD Card with the <a class="externalLink" href="https://www.raspberrypi.org/downloads/raspbian/">Raspberry Pi OS</a>, you can setup the operating system as follows:</p>
 <ol style="list-style-type: decimal">
 
 <li>Insert the card into your Raspberry Pi. Connect the USB Power cable.</li>
@@ -78,6 +78,13 @@
 
 <div class="source"><pre class="prettyprint"><code class="language-shell">pi@raspberrypi:~ $ sudo apt-get update &amp;&amp; sudo apt-get upgrade
 </code></pre></div></li>
+<li>Change the hostname of your raspberrypi. I'm using <code>raspberrypi-time</code>.
+You can do this using <code>raspi-config</code> from your <code>ssh</code> console.
+
+<div class="source"><pre class="prettyprint"><code class="language-shell">$ sudo raspi-config
+</code></pre></div>
+<p>See: <a class="externalLink" href="https://www.tomshardware.com/how-to/raspberry-pi-change-hostname">Change Hostname</a> for more details.</p></li>
+<li>Reboot and reconnect via <code>ssh</code>.</li>
 </ol>
 <p>Next step: <a href="nexussetup.html">Time Capsule Setup</a></p>
         </div>
