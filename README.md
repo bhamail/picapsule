@@ -8,6 +8,10 @@ Build your own [Time Capsule](https://www.apple.com/ph/airport-time-capsule/spec
 [GH Pages Website](https://bhamail.github.io/picapsule/) <--
  This is likely what you really want: The steps to build your own Time Capsule.
 
+#### Other fun Pi Projects
+
+[Pi Nexus](https://github.com/bhamail/pinexus) - Tools to play with [Sonatype Nexus Repository 3](https://help.sonatype.com/en/sonatype-nexus-repository.html) on a Raspberry Pi.
+
 ### Release Process
 
 Do the following to redeploy the website:
