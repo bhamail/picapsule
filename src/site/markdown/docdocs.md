@@ -6,7 +6,7 @@ Doc Doc - Goose?
 
 Here is some documentation about how this documentation is written. Feel free to pitch-in and improve things.
 
-  1. Markdown - Much of this site is written in the [Markdown format](https://daringfireball.net/projects/markdown/syntax).
+  1. Markdown - This site is written in the [Markdown format](https://daringfireball.net/projects/markdown/syntax).
 
      Markdown source files are located in: [src/site/markdown](https://github.com/bhamail/picapsule/tree/master/src/site/markdown).
     
