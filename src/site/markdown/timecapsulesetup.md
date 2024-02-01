@@ -1,7 +1,7 @@
 Time Capsule Setup
 ==================
 
-To mimic a Time Capsule we need a [NAS (network-attached storage) Drive](https://www.seagate.com/blog/what-is-nas-master-ti/). 
+To mimic a Time Capsule we need a [NAS (network-attached storage) Drive](https://en.wikipedia.org/wiki/Network-attached_storage). 
 This is basically a drive that is shared on the network in a manner that allows other computers on the network to read 
 and write to the shared disk.
 
