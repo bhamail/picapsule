@@ -1,7 +1,7 @@
 OS Setup
 ========
   
-  Once you have an SD Card with the [Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspbian/), you can setup the operating system as follows:
+  Once you have an SD Card with the [Raspberry Pi OS](https://www.raspberrypi.com/software/), you can setup the operating system as follows:
   
   1. Insert the card into your Raspberry Pi. Connect the USB Power cable.
   2. Enable `ssh` when the OS boots. You'll likely see the Pi reboot itself after the first startup.
