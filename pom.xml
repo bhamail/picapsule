@@ -37,8 +37,8 @@
     <url>https://github.com/bhamail/picapsule/issues</url>
   </issueManagement>
   <ciManagement>
-    <system>Travis CI</system>
-    <url>https://travis-ci.org/bhamail/picapsule</url>
+    <system>GitHub Actions</system>
+    <url>https://github.com/bhamail/picapsule/actions</url>
   </ciManagement>
   <distributionManagement>
     <site>
@@ -71,6 +71,12 @@
           <artifactId>tidy-maven-plugin</artifactId>
           <version>1.2.0</version>
         </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.doxia</groupId>
+          <artifactId>doxia</artifactId>
+          <version>2.0.0-M9</version>
+        </plugin>
       </plugins>
     </pluginManagement>
     <plugins>
@@ -96,7 +102,7 @@
 
       <plugin><!-- used to deploy site to gh-pages. -->
         <artifactId>maven-scm-publish-plugin</artifactId>
-        <version>3.0.0</version>
+        <version>3.2.1</version>
         <configuration>
           <!-- This is important for git. -->
           <scmBranch>gh-pages</scmBranch>
@@ -115,7 +121,7 @@
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
         <!-- maven-site-plugin is still borked, unless new doxia dependency is explicitly defined. -->
-        <version>3.12.1</version>
+        <version>4.0.0-M13</version>
         <configuration>
           <!-- we use maven-scm-publish-plugin to deploy, so skip this. -->
           <skipDeploy>true</skipDeploy>
