@@ -71,12 +71,6 @@
           <artifactId>tidy-maven-plugin</artifactId>
           <version>1.2.0</version>
         </plugin>
-
-        <plugin>
-          <groupId>org.apache.maven.doxia</groupId>
-          <artifactId>doxia</artifactId>
-          <version>2.0.0-M9</version>
-        </plugin>
       </plugins>
     </pluginManagement>
     <plugins>
@@ -121,7 +115,8 @@
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
         <!-- maven-site-plugin is still borked, unless new doxia dependency is explicitly defined. -->
-        <version>3.12.1</version>
+        <!--<version>3.12.1</version>-->
+        <version>4.0.0-M13</version>
         <configuration>
           <!-- we use maven-scm-publish-plugin to deploy, so skip this. -->
           <skipDeploy>true</skipDeploy>
