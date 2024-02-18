@@ -16,7 +16,7 @@ can be done via `ssh`.
      At least a [3 amp USB-C Power supply for Pi 4](https://www.newark.com/raspberry-pi/sc0218/5-1v-3a-usb-c-psu-us-black-rohs/dp/03AH7034).
      There are many others available.
  
-     A beefier [5 amp USB-C power supply](https://vilros.com/products/raspberry-pi-5-official-power-supply?utm_source%5B0%5D=google&utm_source%5B1%5D=google&utm_medium%5B0%5D=product_sync&utm_medium%5B1%5D=cpc&utm_campaign%5B0%5D=sag_organic&utm_campaign%5B1%5D=&utm_term=&utm_content%5B0%5D=sag_organic&utm_content%5B1%5D=90618046730) would probably be better for a Pi 5.
+     A beefier [5 amp USB-C power supply](https://vilros.com/products/raspberry-pi-5-official-power-supply) would probably be better for a Pi 5.
 
   3. 32GB microSD card w/ SD adapter
 
