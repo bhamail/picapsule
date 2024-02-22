@@ -10,35 +10,9 @@ on:
     - cron: '34 12 * * *'
 
 jobs:
-  build:
-    runs-on: ubuntu-22.04
-    steps:
-      - uses: actions/checkout@v4
-      - name: Setup Local Java for nektos/act
-        if: ${{ env.ACT }}
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'temurin' # See 'Supported distributions' for available options
-          java-version: '21'
-      - name: Which java
-        run: which java
-      - name: Java version
-        run: java -version
-      - name: Build Site
-        run: ./mvnw clean package site -Plinkcheck
   link-check:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-      - name: Setup Local Java for nektos/act
-        if: ${{ env.ACT }}
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'temurin' # See 'Supported distributions' for available options
-          java-version: '21'
-      - name: Which java
-        run: which java
-      - name: Java version
-        run: java -version
-      - name: Build Site
-        run: ./mvnw clean package site -Plinkcheck
+      - name: run muffet filer
+        run: ./.muffet-filter/muffet-filter -i ./.muffet-filter/ignores.json https://bhamail.github.io/picapsule/
