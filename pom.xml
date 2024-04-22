@@ -72,6 +72,29 @@
           <artifactId>tidy-maven-plugin</artifactId>
           <version>1.2.0</version>
         </plugin>
+
+        <!-- Begin plugins that tag along, and are not directly imported, but are also not up-to-date -->
+        <plugin>
+          <artifactId>maven-assembly-plugin</artifactId>
+          <version>3.7.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-clean-plugin</artifactId>
+          <version>3.3.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.13.0</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.4.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.2.5</version>
+        </plugin>
+        <!-- End plugins that tag along, and are not directly imported, but are also otherwise not up-to-date -->
       </plugins>
     </pluginManagement>
     <plugins>
