@@ -1,7 +1,7 @@
 Automate setup of unattended upgrades
 =====================================
 
-1. With all the script in the `bin` dir in the same directory, Run via:
+1. With all the scripts in the `bin` dir in the same directory, run via:
     ```shell
     sudo install-auto-upgrade.sh
     ```
