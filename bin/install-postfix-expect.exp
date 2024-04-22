@@ -43,7 +43,7 @@ if {$force_conservative} {
 
 
 set timeout -1
-spawn ./mini.sh
+spawn ./install-postfix-using-expect.sh
 match_max 100000
 
 expect "Internet Site"
