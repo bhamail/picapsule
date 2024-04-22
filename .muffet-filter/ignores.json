@@ -66,5 +66,9 @@
   {
     "url": "https://bhamail.github.io/bin/install-auto-upgrade.sh",
     "error": "404"
+  },
+  {
+    "url": "https://bhamail.github.io/js/new-ui.js",
+    "error": "404"
   }
 ]
