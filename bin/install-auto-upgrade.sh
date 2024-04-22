@@ -39,8 +39,9 @@ sudo touch /etc/postfix/sasl/sasl_passwd
 # TODO you need to create and edit this file with your own email/password info
 echo '[smtp.gmail.com]:587 your-email@gmail.com:your-app-password' | sudo tee -a /etc/postfix/sasl/sasl_passwd > /dev/null
 
-# exit here, because the correct email and password needs to be in place before setting up the Postmap db
-# sudo postmap /etc/postfix/sasl/sasl_passwd
-# sudo chown root:root /etc/postfix/sasl/sasl_passwd /etc/postfix/sasl/sasl_passwd.db
-# sudo chmod 0600 /etc/postfix/sasl/sasl_passwd /etc/postfix/sasl/sasl_passwd.db
-# sudo systemctl restart postfix
+echo 'Looks good to so far. Now you have some manual steps to do: '
+echo 'The correct email and password need to be in place before setting up the Postmap db, see: /etc/postfix/sasl/sasl_passwd'
+echo '# sudo postmap /etc/postfix/sasl/sasl_passwd'
+echo '# sudo chown root:root /etc/postfix/sasl/sasl_passwd /etc/postfix/sasl/sasl_passwd.db'
+echo '# sudo chmod 0600 /etc/postfix/sasl/sasl_passwd /etc/postfix/sasl/sasl_passwd.db'
+echo '# sudo systemctl restart postfix'
