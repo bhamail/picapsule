@@ -62,5 +62,9 @@
   {
     "url": "https://opensource.org/licenses/Apache-2.0",
     "error": "404"
+  },
+  {
+    "url": "https://bhamail.github.io/bin/install-auto-upgrade.sh",
+    "error": "404"
   }
 ]
