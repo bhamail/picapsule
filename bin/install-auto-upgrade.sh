@@ -33,7 +33,7 @@ sudo ./install-postfix-expect.exp
 # setup relayhost
 sudo sed -i 's|relayhost = |relayhost = [smtp.gmail.com]:587|' /etc/postfix/main.cf
 # smtp config
-sudo sed -i 's|smtp_tls_security_level=may|#smtp_tls_security_level=may' /etc/postfix/main.cf
+sudo sed -i 's|smtp_tls_security_level=may|#smtp_tls_security_level=may|' /etc/postfix/main.cf
 sudo sed -i 's|inet_protocols = all|inet_protocols = all\n\n# Enable SASL authentication\nsmtp_sasl_auth_enable = yes\nsmtp_sasl_security_options = noanonymous\nsmtp_sasl_password_maps = hash:/etc/postfix/sasl/sasl_passwd\nsmtp_tls_security_level = encrypt\nsmtp_tls_CAfile = /etc/ssl/certs/ca-certificates.crt\n|' /etc/postfix/main.cf
 
 sudo touch /etc/postfix/sasl/sasl_passwd
