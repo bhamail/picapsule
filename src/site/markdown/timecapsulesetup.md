@@ -31,7 +31,8 @@ Apple Time Machine to find this disk, we will make it advertise itself as a Time
 3. Since this Raspberry Pi is most likely headless, and you never really directly interact with it,
    you should have it setup to email you about its status. You should also set up this Pi to automatically 
    update itself every night with the latest software patches available. 
-   See: [Unattended Upgrades with Email Notifications](https://www.matt-black.tech/posts/Unattended-Upgrades-with-Email-Notifications-Keeping-Your-Raspberry-Pi-Secure/)
+   See: [Unattended Upgrades with Email Notifications.](https://www.matt-black.tech/posts/Unattended-Upgrades-with-Email-Notifications-Keeping-Your-Raspberry-Pi-Secure/)
+   [Nascent attempt at automating these steps: bin/install-auto-upgrade.sh](bin/install-auto-upgrade.sh)
 
 Many thanks to the authors of the above links!
 
