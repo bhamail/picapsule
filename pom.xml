@@ -70,7 +70,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>tidy-maven-plugin</artifactId>
-          <version>1.2.0</version>
+          <version>1.3.0</version>
         </plugin>
 
         <!-- Begin plugins that tag along, and are not directly imported, but are also not up-to-date -->
