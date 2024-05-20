@@ -74,5 +74,9 @@
   {
     "url": "https://www.linkedin.com/company/the-apache-software-foundation/",
     "error": "403"
+  },
+  {
+    "url": "https://twitter.com/TheASF",
+    "error": "too many redirections"
   }
 ]
