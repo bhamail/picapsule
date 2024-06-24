@@ -120,7 +120,7 @@
 
       <plugin><!-- used to deploy site to gh-pages. -->
         <artifactId>maven-scm-publish-plugin</artifactId>
-        <version>3.2.1</version>
+        <version>3.3.0</version>
         <configuration>
           <!-- This is important for git. -->
           <scmBranch>gh-pages</scmBranch>
