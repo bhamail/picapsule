@@ -92,7 +92,7 @@
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.3.1</version>
+          <version>3.4.0</version>
         </plugin>
         <!-- End plugins that tag along, and are not directly imported, but are also otherwise not up-to-date -->
       </plugins>
