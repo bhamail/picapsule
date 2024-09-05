@@ -78,5 +78,9 @@
   {
     "url": "https://twitter.com/TheASF",
     "error": "too many redirections"
+  },
+  {
+    "url": "https://www.newark.com/raspberry-pi/sc0218/5-1v-3a-usb-c-psu-us-black-rohs/dp/03AH7034",
+    "error": "timeout"
   }
 ]
