@@ -9,7 +9,7 @@ can be done via `ssh`.
   1. A [Raspberry Pi](https://www.raspberrypi.com/products/). 
      I've used a [Pi 4 Model B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) with [8gb RAM](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/?variant=raspberry-pi-4-model-b-8gb) because they are readily available at the time of this writing.
   
-     By the time you read this, bht [Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) may be available.     
+     By the time you read this, the [Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) may be available.     
 
   2. USB Power supply: 
   
@@ -21,6 +21,9 @@ can be done via `ssh`.
   3. 32GB microSD card w/ SD adapter
 
      ![Pi2](images/supplies/SDCard-20-231-577-Z01.jpg)
+
+     These nifty new [Raspberry Pi SD Cards](https://www.raspberrypi.com/products/sd-cards/) look intriguing to me. 
+     I ordered mine. We'll see how they work out.
 
   4. A big 'ole USB hard drive. This could be a spinning disk or an SSD. I decided the extra cost of an SSD would be 
      worthwhile because the SDD will be faster and use less electricity over its lifetime. The really important word
@@ -37,5 +40,7 @@ can be done via `ssh`.
 
      For those who want the fastest possible solution, the Pi 5 has a PCI Express interface available via a ribbon cable
      and adapter. As I said, I'm desirous of a Pi 5, but couldn't find one as of this writing.
+
+     Spoiler alert: I'm thinking about a Pi 5 with a 4tb M.2 NVMe SSD add-on card that also provides POE.
 
 Next step: [Setup](setup.html)
