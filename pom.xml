@@ -225,7 +225,7 @@
     </profile>
 
     <profile>
-      <!-- TODO: Remove this profile when maven-project-info-reports-plugin 3.8.1 is released. Fixes https://issues.apache.org/jira/browse/MPIR-469 -->
+      <!-- TODO: Remove this profile when maven-project-info-reports-plugin 3.8.x is released. Fixes https://issues.apache.org/jira/browse/MPIR-469 -->
       <id>project-info-unreleased</id>
       <activation>
         <activeByDefault>true</activeByDefault>
