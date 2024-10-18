@@ -26,7 +26,7 @@ sdk use java 8.0.372-zulu
 ```
 3. Run:
 ```shell
-./mvnw clean site-deploy -Plinkcheck 
+./mvnw clean site-deploy -Plinkcheck,project-info-unreleased 
 ```
 Note: You will likely be prompted for the ssh key password for your git login. You do have 
 a password on your git ssh key correct? ;)
