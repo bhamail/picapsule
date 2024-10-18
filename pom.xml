@@ -230,17 +230,16 @@
       <activation>
         <activeByDefault>true</activeByDefault>
       </activation>
-      <dependencyManagement>
-        <dependencies>
-          <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
+      <reporting>
+        <plugins>
+          <plugin>
             <artifactId>maven-project-info-reports-plugin</artifactId>
             <version>3.8.1-SNAPSHOT</version>
-          </dependency>
-        </dependencies>
-      </dependencyManagement>
-      <repositories>
-        <repository>
+          </plugin>
+        </plugins>
+      </reporting>
+      <pluginRepositories>
+        <pluginRepository>
           <id>apache-snapshots</id>
           <url>https://repository.apache.org/content/groups/snapshots</url>
           <releases>
@@ -249,8 +248,8 @@
           <snapshots>
             <enabled>true</enabled>
           </snapshots>
-        </repository>
-      </repositories>
+        </pluginRepository>
+      </pluginRepositories>
 
     </profile>
   </profiles>
