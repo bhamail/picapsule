@@ -61,7 +61,7 @@
   },
   {
     "url": "https://opensource.org/licenses/Apache-2.0",
-    "error": "404"
+    "error": "403"
   },
   {
     "url": "https://bhamail.github.io/bin/install-auto-upgrade.sh",
@@ -82,5 +82,9 @@
   {
     "url": "https://www.newark.com/raspberry-pi/sc0218/5-1v-3a-usb-c-psu-us-black-rohs/dp/03AH7034",
     "error": "timeout"
+  },
+  {
+    "url": "https://www.raspberrypi.com/products/sd-cards/",
+    "error": "403"
   }
 ]
