@@ -26,7 +26,7 @@ Do the following to redeploy the website:
    ```
 3. Run:
    ```shell
-   ./mvnw clean site-deploy -Plinkcheck,project-info-unreleased 
+   ./mvnw clean site-deploy -Plinkcheck
    ```
 Note: You will likely be prompted for the ssh key password for your git login. You do have 
 a password on your git ssh key correct? ;)
