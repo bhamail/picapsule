@@ -47,3 +47,8 @@ echo '# sudo chown root:root /etc/postfix/sasl/sasl_passwd /etc/postfix/sasl/sas
 echo '# sudo chmod 0600 /etc/postfix/sasl/sasl_passwd /etc/postfix/sasl/sasl_passwd.db'
 echo '# sudo systemctl restart postfix'
 echo '# sudo unattended-upgrades -d'
+echo '\n'
+echo '# Test Unattended Upgrades'
+echo '# sudo unattended-upgrades --dry-run --debug'
+echo '# Test Unattended email'
+echo '# sudo unattended-upgrades -d'
