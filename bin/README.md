@@ -1,3 +1,12 @@
+Automate setup of samba
+=======================
+1. With all the scripts in the `bin` dir in the same directory, run via:
+   ```shell
+   sudo ./install-samba-timemachine.sh
+   ```
+   You will need to provide a password manually for the `timemachine` user.
+   You will also need to complete some steps manually after the script completes.
+
 Automate setup of unattended upgrades
 =====================================
 
