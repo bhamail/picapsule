@@ -32,5 +32,5 @@ ls -lha /dev/disk/by-uuid
 # TODO automate the stuff below
 echo 'Looks good so far. Now you have some manual steps to do: '
 echo 'Find the device ID above of your time machine drive, then:'
-echo 'Add that device ID to your /etc/fstab, like:'
+echo 'Add that device ID (as UUID) to your /etc/fstab, like:'
 echo 'UUID=7efbdfc5–9c85–4e01–873a-204e00c9aa45 /mnt/timemachine ext4 sync,noexec,nodev,noatime,nodiratime 0 0'
