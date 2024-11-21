@@ -86,5 +86,9 @@
   {
     "url": "https://www.raspberrypi.com/products/sd-cards/",
     "error": "403"
+  },
+  {
+    "url": "https://twitter.com/TheASF",
+    "error": "error when reading response headers: small read buffer. Increase ReadBufferSize. Buffer size=8192, contents: .*"
   }
 ]
