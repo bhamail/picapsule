@@ -96,6 +96,10 @@
     "error": "error when dialing .* dialing to the given TCP address timed out"
   },
   {
+    "url": "https://cwiki.apache.org/",
+    "error": "503"
+  },
+  {
     "url": "https://selfserve.apache.org/",
     "error": "error when dialing .* dialing to the given TCP address timed out"
   }
