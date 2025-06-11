@@ -76,6 +76,10 @@
     "error": "503"
   },
   {
+    "url": "https://cwiki.apache.org/",
+    "error": "timeout"
+  },
+  {
     "url": "https://selfserve.apache.org/",
     "error": "error when dialing .* dialing to the given TCP address timed out"
   }
