@@ -64,7 +64,7 @@
     "error": "timeout"
   },
   {
-    "url": "https://www.newark.com/raspberry-pi/sc0218/*",
+    "url": "https://www.newark.com/raspberry-pi/sc0218/.*",
     "error": "403"
   },
   {
