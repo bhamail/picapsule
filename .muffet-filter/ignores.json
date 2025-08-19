@@ -64,6 +64,10 @@
     "error": "timeout"
   },
   {
+    "url": "https://www.newark.com/raspberry-pi/sc0218/*",
+    "error": "403"
+  },
+  {
     "url": "https://twitter.com/TheASF",
     "error": "error when reading response headers: small read buffer. Increase ReadBufferSize. Buffer size=8192, contents: .*"
   },
@@ -82,5 +86,9 @@
   {
     "url": "https://selfserve.apache.org/",
     "error": "error when dialing .* dialing to the given TCP address timed out"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Network-attached_storage",
+    "error": "403"
   }
 ]
