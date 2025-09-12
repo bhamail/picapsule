@@ -159,7 +159,8 @@
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
         <!-- maven-site-plugin is still borked, unless new doxia dependency is explicitly defined. -->
-        <!--<version>3.12.1</version>-->
+        <!--version>3.12.1</version-->
+        <!-- Saw comments saying maven-site-plugin v4 is intended for use with Maven 4 -->
         <version>4.0.0-M16</version>
         <configuration>
           <!-- we use maven-scm-publish-plugin to deploy, so skip this. -->
