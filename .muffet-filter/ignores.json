@@ -90,5 +90,13 @@
   {
     "url": "https://en.wikipedia.org/wiki/Network-attached_storage",
     "error": "403"
+  },
+  {
+    "url": "https://saschaeggi.medium.com/use-a-raspberry-pi-4-for-time-machine-works-with-big-sur-1e66a9650789",
+    "error": "403"
+  },
+  {
+    "url": "https://issues.apache.org/",
+    "error": "error when dialing .*"
   }
 ]
