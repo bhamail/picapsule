@@ -76,7 +76,7 @@
         <!-- Begin plugins that tag along, and are not directly imported, but are also not up-to-date -->
         <plugin>
           <artifactId>maven-assembly-plugin</artifactId>
-          <version>3.7.1</version>
+          <version>3.8.0</version>
         </plugin>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
