@@ -98,5 +98,9 @@
   {
     "url": "https://issues.apache.org/",
     "error": "error when dialing .*"
+  },
+  {
+    "url": "https://raspberrytips.com/format-mount-usb-drive/",
+    "error": "415"
   }
 ]
