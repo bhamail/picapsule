@@ -72,6 +72,10 @@
     "error": "error when reading response headers: small read buffer. Increase ReadBufferSize. Buffer size=8192, contents: .*"
   },
   {
+    "url": "https://twitter.com/TheASF",
+    "error": "403"
+  },
+  {
     "url": "https://cwiki.apache.org/",
     "error": "error when dialing .* dialing to the given TCP address timed out"
   },
