@@ -28,6 +28,9 @@ Apple Time Machine to find this disk, we will make it advertise itself as a Time
    UUID=73c1affc-d29c-4246-969e-adf90d71a23e /mnt/timemachine ext4 sync,noexec,nodev,noatime,nodiratime 0 0
    ```
 
+   The instructions here: [TimeCapsule-Pi - Manual Install](https://github.com/rizal72/TimeCapsule-Pi/blob/main/MANUAL_INSTALL.md)
+   have been excellent and look even better than those above so far.
+
 3. Since this Raspberry Pi is most likely headless, and you never really directly interact with it,
    you should have it setup to email you about its status. You should also set up this Pi to automatically 
    update itself every night with the latest software patches available. 
