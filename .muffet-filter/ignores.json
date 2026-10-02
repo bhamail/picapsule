@@ -106,5 +106,13 @@
   {
     "url": "https://raspberrytips.com/format-mount-usb-drive/",
     "error": "415"
+  },
+  {
+    "url": "https://github.com/bhamail/picapsule/issues",
+    "error": "timeout"
+  },
+  {
+    "url": "https://github.com/apache",
+    "error": "timeout"
   }
 ]
