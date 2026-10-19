@@ -57,7 +57,11 @@
   },
   {
     "url": "https://twitter.com/TheASF",
-    "error": "too many redirections"
+    "error": ".*"
+  },
+  {
+    "url": "https://www.youtube.com/c/TheApacheFoundation",
+    "error": ".*"
   },
   {
     "url": "https://www.newark.com/raspberry-pi/sc0218/5-1v-3a-usb-c-psu-us-black-rohs/dp/03AH7034",
@@ -65,14 +69,6 @@
   },
   {
     "url": "https://www.newark.com/raspberry-pi/sc0218/*",
-    "error": "403"
-  },
-  {
-    "url": "https://twitter.com/TheASF",
-    "error": "error when reading response headers: small read buffer. Increase ReadBufferSize. Buffer size=8192, contents: .*"
-  },
-  {
-    "url": "https://twitter.com/TheASF",
     "error": "403"
   },
   {
