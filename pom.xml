@@ -138,7 +138,8 @@
         <version>${version-maven-linkcheck-plugin}</version>
       </plugin>
 
-      <plugin><!-- used to deploy site to gh-pages. -->
+      <plugin>
+        <!-- used to deploy site to gh-pages. -->
         <artifactId>maven-scm-publish-plugin</artifactId>
         <version>3.3.0</version>
         <configuration>
@@ -182,7 +183,6 @@
           </execution>
         </executions>
       </plugin>
-
     </plugins>
   </build>
 
