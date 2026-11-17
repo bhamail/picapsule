@@ -166,6 +166,8 @@
         <configuration>
           <!-- we use maven-scm-publish-plugin to deploy, so skip this. -->
           <skipDeploy>true</skipDeploy>
+          <!-- provide outputTimestamp to avoid "Last Published: 1980-02-01" on web site page headers -->
+          <outputTimestamp>${maven.build.timestamp}</outputTimestamp>
         </configuration>
         <executions>
           <execution>
