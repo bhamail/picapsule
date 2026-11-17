@@ -70,7 +70,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>tidy-maven-plugin</artifactId>
-          <version>1.4.1</version>
+          <version>1.5.0</version>
         </plugin>
 
         <!-- Begin plugins that tag along, and are not directly imported, but are also not up-to-date -->
@@ -138,7 +138,8 @@
         <version>${version-maven-linkcheck-plugin}</version>
       </plugin>
 
-      <plugin><!-- used to deploy site to gh-pages. -->
+      <plugin>
+        <!-- used to deploy site to gh-pages. -->
         <artifactId>maven-scm-publish-plugin</artifactId>
         <version>3.3.0</version>
         <configuration>
@@ -182,7 +183,6 @@
           </execution>
         </executions>
       </plugin>
-
     </plugins>
   </build>
 
