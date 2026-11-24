@@ -110,5 +110,9 @@
   {
     "url": "https://github.com/apache",
     "error": "timeout"
+  },
+  {
+    "url": "https://github.com/bhamail/picapsule/blob/main/.*",
+    "error": "503"
   }
 ]
