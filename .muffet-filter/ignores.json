@@ -114,5 +114,9 @@
   {
     "url": "https://github.com/bhamail/picapsule/blob/main/.*",
     "error": "503"
+  },
+  {
+     "url": "https://github.com/rizal72/TimeCapsule-Pi/blob/main/MANUAL_INSTALL.md",
+     "error": "503"
   }
 ]
